@@ -1,41 +1,38 @@
-# Chart.js 
+<p align="center">
+  <a href="https://www.chartjs.org/" target="_blank">
+    <img src="https://www.chartjs.org/media/logo-title.svg" alt="https://www.chartjs.org/"><br/>
+  </a>
+    Simple yet flexible JavaScript charting for designers & developers
+</p>
 
-[![Build Status](https://travis-ci.org/nnnick/Chart.js.svg?branch=master)](https://travis-ci.org/nnnick/Chart.js) [![Code Climate](https://codeclimate.com/github/nnnick/Chart.js/badges/gpa.svg)](https://codeclimate.com/github/nnnick/Chart.js)
-
-
-*Simple HTML5 Charts using the canvas element* [chartjs.org](http://www.chartjs.org)
-
-## v2.0 Development
-The next generation and release of Chart.js has been well under way this year and we are very close to releasing some amazing new features including, but not limited to:
-- Rewritten, optimized, and unit-tested
-- New and improved scales (log, time, linear, category, multiple scales)
-- Improved responsiveness and resizing
-- Powerful new API for adding, removing, changing, and updating data
-- Animations on all elements, colors and tooltips
-- Powerful customization when you need it. Automatic and dynamic when you don't.
-- Excellent support for modern frameworks and modular build systems.
-- Even more extensible via new element controllers, combo chart support, and hook system
-- Bug fixes not addressed in 1.x, and much, much more...
-
-#####Contributing to 2.0
-Submit PR's to the v2.0-dev branch.
-
-#####Building and Testing
-`gulp build`, `gulp test`
-
-## v1.x Status: Feature Complete
-We are now treating v1.x as feature complete.  PR's for bug fixes are welcome, but we urge any open PR's for v1.x features to be refactored and resubmitted for v2.x (if the feature has not already been implemented).
+<p align="center">
+    <a href="https://www.chartjs.org/docs/latest/getting-started/installation.html"><img src="https://img.shields.io/github/release/chartjs/Chart.js.svg?style=flat-square&maxAge=600" alt="Downloads"></a>
+    <a href="https://github.com/chartjs/Chart.js/actions?query=workflow%3ACI+branch%3Amaster"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/chartjs/Chart.js/ci.yml?branch=master&style=flat-square"></a>
+    <a href="https://coveralls.io/github/chartjs/Chart.js?branch=master"><img src="https://img.shields.io/coveralls/chartjs/Chart.js.svg?style=flat-square&maxAge=600" alt="Coverage"></a>
+    <a href="https://github.com/chartjs/awesome"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
+    <a href="https://discord.gg/HxEguTK6av"><img src="https://img.shields.io/badge/discord-chartjs-blue?style=flat-square&maxAge=3600" alt="Discord"></a>
+</p>
 
 ## Documentation
 
-You can find documentation at [chartjs.org/docs](http://www.chartjs.org/docs/). The markdown files that build the site are available under `/docs`. Please note - in some of the json examples of configuration you might notice some liquid tags - this is just for the generating the site html, please disregard.
+All the links point to the new version 4 of the lib.
 
-## Bugs, issues and contributing
+* [Introduction](https://www.chartjs.org/docs/latest/)
+* [Getting Started](https://www.chartjs.org/docs/latest/getting-started/index)
+* [General](https://www.chartjs.org/docs/latest/general/data-structures)
+* [Configuration](https://www.chartjs.org/docs/latest/configuration/index)
+* [Charts](https://www.chartjs.org/docs/latest/charts/line)
+* [Axes](https://www.chartjs.org/docs/latest/axes/index)
+* [Developers](https://www.chartjs.org/docs/latest/developers/index)
+* [Popular Extensions](https://github.com/chartjs/awesome)
+* [Samples](https://www.chartjs.org/samples/)
 
-Before submitting an issue or a pull request to the project, please take a moment to look over the [contributing guidelines](https://github.com/nnnick/Chart.js/blob/master/CONTRIBUTING.md) first.
+In case you are looking for an older version of the docs, you will have to specify the specific version in the url like this: [https://www.chartjs.org/docs/2.9.4/](https://www.chartjs.org/docs/2.9.4/)
 
-For support using Chart.js, please post questions with the [`chartjs` tag on Stack Overflow](http://stackoverflow.com/questions/tagged/chartjs).
+## Contributing
+
+Instructions on building and testing Chart.js can be found in [the documentation](https://www.chartjs.org/docs/master/developers/contributing.html#building-and-testing). Before submitting an issue or a pull request, please take a moment to look over the [contributing guidelines](https://www.chartjs.org/docs/master/developers/contributing) first. For support, please post questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/chart.js) with the `chart.js` tag.
 
 ## License
 
-Chart.js is available under the [MIT license](http://opensource.org/licenses/MIT).
+Chart.js is available under the [MIT license](LICENSE.md).
